@@ -10,13 +10,12 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.korken-title {
-    background-color: rgb(158, 48, 149);
-    padding: 15px 20px;
-}
 
 .header-nav {
-    background-color: rgb(67, 30, 97);
+    background-image: url(Frame\ 1.png);
+    background-size: 100vw;
+    padding-top:  15px;
+    padding-bottom: 15px;
     position: relative;
     display: flex;
     justify-content: space-evenly;
@@ -24,7 +23,13 @@ body {
     list-style-type: none;
 }
 
+.korken-title {
+    margin-right: 550px;
+}
+
 .header-nav a {
     color: antiquewhite;
     text-decoration: none;
 }
+
+lolololololololol
