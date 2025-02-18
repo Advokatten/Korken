@@ -36,12 +36,52 @@ main{
     text-decoration: none;
 }
 
-.footer-content{
-    background-image: url(bilder/Frame\ 1.png);
-    height:20vh;
-    width:100vw;
-    position:fixed;
-    left: 0;
-    bottom: 0;
 
+
+.footer {
+    background-color: #431E61;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.footer-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 14px;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: antiquewhite;
+    font-size: 20px;
+    text-decoration: none;
 }
