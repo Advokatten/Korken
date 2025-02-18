@@ -10,6 +10,10 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+main{
+    height:fit-content;
+    width:100vw;
+}
 
 .header-nav {
     background-image: url(bilder/Frame\ 1.png);
@@ -30,4 +34,14 @@ body {
 .header-nav a {
     color: antiquewhite;
     text-decoration: none;
+}
+
+.footer-content{
+    background-image: url(bilder/Frame\ 1.png);
+    height:20vh;
+    width:100vw;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+
 }
