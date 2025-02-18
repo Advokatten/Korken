@@ -5,8 +5,9 @@
 }
 
 body {
-    background-color: rgb(34, 34, 34);
-    color: antiquewhite;
+    background-color: Canvas;
+    color: CanvasText;
+    color-scheme: light dark;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -16,7 +17,7 @@ main{
 }
 
 .header-nav {
-    background-image: url(bilder/Frame\ 1.png);
+    background-image: url(bilder/Header.png);
     background-size: 100vw;
     padding-top:  15px;
     padding-bottom: 15px;
@@ -36,6 +37,20 @@ main{
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+.header-nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.footer-content{
+    background-image: url(bilder/Header.png);
+    height:20vh;
+    width:100vw;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+>>>>>>> 41da3417042ff12417c5161b54431222bad044fd
 
 
 .footer {
