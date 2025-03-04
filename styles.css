@@ -37,20 +37,9 @@ main{
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
 .header-nav a:hover {
     color: rgb(0, 0, 0);
 }
-
-.footer-content{
-    background-image: url(bilder/Header.png);
-    height:20vh;
-    width:100vw;
-    position:fixed;
-    left: 0;
-    bottom: 0;
->>>>>>> 41da3417042ff12417c5161b54431222bad044fd
 
 
 .footer {
