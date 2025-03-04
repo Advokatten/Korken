@@ -6,6 +6,8 @@
 
 body {
   background-image: url(bilder/Boblebakgrunn.png);
+  background-size: 100vw;
+  background-position: fixed;
   background-color: Canvas;
   color: CanvasText;
   color-scheme: light dark;
@@ -68,11 +70,12 @@ header ul {
 .footer {
   background-color: #431e61;
   width: 100vw;
-  position: fixed;
+  position: relative;
   bottom: 0;
   left: 0;
   text-align: center;
   padding: 15px 0;
+  margin-top: 15px;
 }
 
 .footer-content {
@@ -117,7 +120,16 @@ header ul {
   background-color: #f5f5f5;
   width: 75vw;
   height: 50%;
-  margin: 5em auto;
+  margin: 1em auto 1em;
+}
+
+.artikkel-box-lite {
+    display: inline-block;
+    justify-content: center;
+    background-color: #f5f5f5;
+    width: 37vw;
+    height: 50%;
+    margin: 0 auto;
 }
 
 .artikkel-box img {
@@ -126,4 +138,22 @@ header ul {
   width: 70vw;
   height: 25vw;
   padding-top: 30px;
+}
+
+.artikkel-box-lite img {
+    display: block;
+    margin: 0 auto;
+    width: 32vw;
+    height: 25vw;
+    padding-top: 30px;
+  }
+
+.artikkel-pos {
+    display: flex;
+    justify-content: center;
+    margin: 0 11.5em;
+}
+
+.box {
+    margin-bottom: 5em;
 }
