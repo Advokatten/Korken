@@ -18,7 +18,9 @@ main {
 }
 
 h2 {
-    font-size: 40px;
+  font-size: 50px;
+  color: #000000;
+  text-align: center;
 }
 
 .header-nav {
@@ -30,6 +32,7 @@ h2 {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -95,17 +98,19 @@ h2 {
   text-decoration: none;
 }
 
-.artikkel   {
-    position: relative;
-    top: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.artikkel-box {
+  display: block;
+  justify-content: center;
+  background-color: #f5f5f5;
+  width: 75vw;
+  height: 50%;
+  margin: 5em auto;
 }
 
-.artikkel-bilde {
-    display: flex;
-    justify-content: center;
-    width: 75vw;
-    height: 350px;
+.artikkel-box img {
+  display: block;
+  margin: 0 auto;
+  width: 70vw;
+  height: 25vw;
+  padding-top: 30px;
 }
