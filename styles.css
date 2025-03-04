@@ -22,25 +22,38 @@ h2 {
   color: #000000;
   text-align: center;
 }
-
+header ul {
+  display: flex;
+  flex-flow: wrap;
+  background-image: url(bilder/Frame\ 14.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 30%;
+  height: auto;
+  padding: 30px;
+  gap: 30px;
+}
 .header-nav {
-  background-image: url(bilder/Header.png);
-  background-size: 100vw;
+  background-color: #9E3095;
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100vw;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  position: fixed;
+  padding-top: 0px;
+  padding-bottom: 0px;
   top: 0;
   left: 0;
   z-index: 10;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   list-style-type: none;
 }
 
-.korken-title {
-  margin-right: 550px;
+.kork {
+  max-width: 70px;
+  padding-left: 10px;
 }
 
 .header-nav a {
