@@ -17,6 +17,10 @@ main {
   width: 100vw;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .header-nav {
   background-image: url(bilder/Header.png);
   background-size: 100vw;
@@ -89,4 +93,19 @@ main {
   color: antiquewhite;
   font-size: 20px;
   text-decoration: none;
+}
+
+.artikkel   {
+    position: relative;
+    top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artikkel-bilde {
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+    height: 350px;
 }
