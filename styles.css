@@ -5,6 +5,7 @@
 }
 
 body {
+    background-image: url(bilder/Boblebakgrunn.png);
     background-color: Canvas;
     color: CanvasText;
     color-scheme: light dark;
@@ -19,9 +20,12 @@ main{
 .header-nav {
     background-image: url(bilder/Header.png);
     background-size: 100vw;
+    width: 100vw;
     padding-top:  15px;
     padding-bottom: 15px;
-    position: relative;
+    position:   fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -44,7 +48,7 @@ main{
 
 .footer {
     background-color: #431E61;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     bottom: 0;
     left: 0;
