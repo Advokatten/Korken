@@ -41,7 +41,7 @@ header ul {
   background-color: #9E3095;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100vw;
+  width: auto;
   padding-top: 0px;
   padding-bottom: 0px;
   top: 0;
@@ -54,17 +54,19 @@ header ul {
 }
 
 .kork {
-  max-width: 70px;
+  max-width: 60px;
   padding-left: 10px;
 }
 
 .header-nav a {
-  color: antiquewhite;
+  color: #9f9f9f;
+  opacity: 70%;
   text-decoration: none;
 }
 
 .header-nav a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  opacity: 100%;
 }
 
 .footer {
