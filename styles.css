@@ -24,34 +24,49 @@ h2 {
   color: #000000;
   text-align: center;
 }
-
+header ul {
+  display: flex;
+  flex-flow: wrap;
+  background-image: url(bilder/Frame\ 14.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 30%;
+  height: auto;
+  padding: 30px;
+  gap: 30px;
+}
 .header-nav {
-  background-image: url(bilder/Header.png);
-  background-size: 100vw;
-  width: 100vw;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  position: fixed;
+  background-color: #9E3095;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
   top: 0;
   left: 0;
   z-index: 10;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   list-style-type: none;
 }
 
-.korken-title {
-  margin-right: 550px;
+.kork {
+  max-width: 60px;
+  padding-left: 10px;
 }
 
 .header-nav a {
-  color: antiquewhite;
+  color: #9f9f9f;
+  opacity: 70%;
   text-decoration: none;
 }
 
 .header-nav a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  opacity: 100%;
 }
 
 .footer {
