@@ -82,7 +82,7 @@ header ul {
 }
 
 .header-nav a:hover {
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   opacity: 100%;
 }
 
@@ -181,5 +181,12 @@ header ul {
 }
 
 .test {
-  
+  display: flex;
+  align-items: flex-start;
+}
+
+.test img {
+  margin-right: 1vw;
+  width: 250vw;
+  height: 8vw;
 }
