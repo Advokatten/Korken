@@ -124,6 +124,10 @@ header ul {
   font-size: 14px;
 }
 
+.footer-nav a:hover{
+    font-size:18px;
+}
+
 .social-icons {
   display: flex;
   gap: 15px;
@@ -133,6 +137,10 @@ header ul {
   color: white;
   font-size: 20px;
   text-decoration: none;
+}
+
+.social-icons a:hover{
+    font-size:25px;
 }
 
 .artikkel-box {
