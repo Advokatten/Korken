@@ -38,7 +38,7 @@ header ul {
   gap: 30px;
 }
 .header-nav {
-  background-color: #9E3095;
+  background-color: #9e3095;
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
@@ -126,12 +126,12 @@ header ul {
 }
 
 .artikkel-box-lite {
-    display: inline-block;
-    justify-content: center;
-    background-color: #f5f5f5;
-    width: 37vw;
-    height: 50%;
-    margin: 0 auto;
+  display: inline-block;
+  justify-content: center;
+  background-color: #f5f5f5;
+  width: 37vw;
+  height: 50%;
+  margin: 0 auto;
 }
 
 .artikkel-box img {
@@ -143,19 +143,19 @@ header ul {
 }
 
 .artikkel-box-lite img {
-    display: block;
-    margin: 0 auto;
-    width: 32vw;
-    height: 25vw;
-    padding-top: 30px;
-  }
+  display: block;
+  margin: 0 auto;
+  width: 32vw;
+  height: 25vw;
+  padding-top: 30px;
+}
 
 .artikkel-pos {
-    display: flex;
-    justify-content: center;
-    margin: 0 11.5em;
+  display: flex;
+  justify-content: center;
+  margin: 0 11.5em;
 }
 
 .box {
-    margin-bottom: 5em;
+  margin-bottom: 5em;
 }
