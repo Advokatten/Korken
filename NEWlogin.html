@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Krokeide VGS:</h1>
+    <h2 id="admin_welcome">Velkommen Gjest</h2>
+    <div id="login">
+    <h2>Logg inn:</h2>
+    <form action="">
+        <label for="login_username" id="login_username_label">Brukernavn:</label><br>
+        <input type="text" name="login_username" id="login_username" placeholder="brukernavn"><br>
+        <label for="login_password" id=login_password_label>Passord:</label><br>
+        <input type="password" name="login_password" id="login_password" placeholder="passord"><br><br>
+        <button type="submit" onclick="AdminLogin()">Logg inn</button><br>
+        <p id="login_output"></p>
+    </form>
+    </div>
+    <form action="">
+    <button type="submit" onclick="AdminLogout()">Logg ut</button><br>
+    <div id="post_articles">
+        <p>Post artikkel:</p>
+        <input type="file" name="imageUpload" id="imageSelected"><br>
+        <textarea name="" id="articleText" placeholder="Tekst..."></textarea><br>
+        <button type="button" onclick="PostArticle()">Post</button>
+        <div id="the_article"></div>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
