@@ -86,7 +86,7 @@ header ul {
 .header-nav a:hover {
   color: #9f9f9f;
   opacity: 100%;
-  font-size: larger;
+  font-size: 18px;
 }
 
 .footer {
