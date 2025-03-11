@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(bilder/Boblebakgrunn.png);
+  background-image: url(Boblebakgrunn.png);
   background-size: 100vw;
   background-position: fixed;
   background-color: Canvas;
@@ -31,6 +31,11 @@ h2 {
   text-align: center;
 }
 
+p {
+  color: #000000;
+  padding: 1.5vw;
+}
+
 a{
   text-decoration: none;
 }
@@ -38,7 +43,7 @@ a{
 header ul {
   display: flex;
   flex-flow: wrap;
-  background-image: url(bilder/Frame\ 14.png);
+  background-image: url(Frame\ 14.png);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: space-around;
@@ -136,6 +141,7 @@ header ul {
   width: 75vw;
   height: 50%;
   margin: 1em auto 1em;
+  border-radius: 10px;
 }
 
 .artikkel-box-lite {
@@ -145,6 +151,7 @@ header ul {
   width: 37vw;
   height: 50%;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 .artikkel-box img {
@@ -171,4 +178,8 @@ header ul {
 
 .box {
   margin-bottom: 5em;
+}
+
+.test {
+  
 }
