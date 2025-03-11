@@ -20,7 +20,9 @@ main {
 }
 
 h1 {
-  font-weight: bolder;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
   font-size: 5vw;
   text-align: center;
 }
@@ -76,13 +78,13 @@ header ul {
 }
 
 .header-nav a {
-  color: #9f9f9f;
-  opacity: 70%;
+  color: #ffffff;
+  opacity: 100%;
   text-decoration: none;
 }
 
 .header-nav a:hover {
-  background-color: rgb(255, 255, 255);
+  color: #9f9f9f;
   opacity: 100%;
 }
 
@@ -177,7 +179,7 @@ header ul {
 }
 
 .box {
-  margin-bottom: 5em;
+  margin-bottom: 6em;
 }
 
 .test {
@@ -187,6 +189,20 @@ header ul {
 
 .test img {
   margin-right: 1vw;
+  margin-bottom: 1vw;
   width: 250vw;
   height: 8vw;
+}
+
+.spilleliste {
+  margin-top: 1vw;
+  margin-bottom: 1.6vw;
+}
+
+iframe {
+margin-left: 1.7vw;
+}
+
+.bottomtrack {
+  margin-bottom: 1.7vw;
 }
