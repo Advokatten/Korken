@@ -40,6 +40,11 @@ p {
   letter-spacing: 0.5px;
 }
 
+i {
+  font-size: smaller;
+  opacity: 80%;
+}
+
 a {
   text-decoration: none;
 }
