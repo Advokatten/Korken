@@ -178,7 +178,8 @@ header ul {
   margin: 0 auto;
   width: fit-content;
   height: 25vw;
-  padding-top: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
 }
 
 .artikkel-box-lite img {
@@ -186,7 +187,8 @@ header ul {
   margin: 0 auto;
   width: fit-content;
   height: 25vw;
-  padding-top: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
 }
 
 .artikkel-pos {
