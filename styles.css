@@ -103,6 +103,7 @@ header ul {
   text-align: center;
   padding: 15px 0;
   margin-top: 15px;
+  max-height: 4vw;
 }
 
 .footer-content {
