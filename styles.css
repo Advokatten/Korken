@@ -93,8 +93,6 @@ header ul {
   background-color: #431e61;
   width: 100vw;
   position: relative;
-  bottom: 0;
-  left: 0;
   text-align: center;
   padding: 15px 0;
   margin-top: 15px;
@@ -152,7 +150,7 @@ header ul {
   justify-content: center;
   background-color: #f5f5f5;
   width: 37vw;
-  height: 50%;
+  min-height: 50%;
   margin: 0 auto;
   border-radius: 10px;
 }
