@@ -55,6 +55,7 @@ header ul {
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: space-around;
+  align-content: center;
   list-style-type: none;
   width: 30%;
   max-height: 4vw;
@@ -251,6 +252,7 @@ iframe {
     max-height: 4vw;
     width: 30%;
     padding: 10px;
+    align-content: center;
   }
 
   .header-nav a {
