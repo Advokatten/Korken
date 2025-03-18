@@ -240,7 +240,16 @@ iframe {
   }
 
   .header-nav ul {
-    width: 100%;
+    display: flex;
+    flex-flow:  wrap;
+    background-image: url(Frame\ 14.png);
+    justify-content: space-around;
+    background-size: cover;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    gap: 30px;
+    max-height: 4vw;
+    width: 30%;
     padding: 10px;
   }
 
