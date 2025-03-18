@@ -130,8 +130,9 @@ header ul {
   font-size: 14px;
 }
 
+
 .footer-nav a:hover {
-  font-size: 18px;
+  font-weight: bold;
 }
 
 .social-icons {
