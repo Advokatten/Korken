@@ -4,7 +4,6 @@
   padding: 0;
 }
 
-
 body {
   background-image: url(Boblebakgrunn.png);
   background-size: 100vw;
@@ -12,7 +11,7 @@ body {
   background-color: Canvas;
   color: CanvasText;
   color-scheme: light dark;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -223,4 +222,61 @@ iframe {
 
 .bottomtrack {
   margin-bottom: 1.7vw;
+}
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 8vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+
+  p {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+
+  .header-nav ul {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .header-nav a {
+    font-size: 4vw;
+  }
+
+  .artikkel-box,
+  .artikkel-box-lite {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .artikkel-box img,
+  .artikkel-box-lite img {
+    width: 100%;
+    height: auto;
+  }
+
+  .artikkel-pos {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .test img {
+    width: 100%;
+    height: auto;
+  }
+
+  .spilleliste {
+    font-size: 5vw;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
 }
