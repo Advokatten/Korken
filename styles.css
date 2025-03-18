@@ -40,11 +40,6 @@ p {
   letter-spacing: 0.5px;
 }
 
-i {
-  font-size: smaller;
-  opacity: 80%;
-}
-
 a {
   text-decoration: none;
 }
@@ -103,7 +98,6 @@ header ul {
   text-align: center;
   padding: 15px 0;
   margin-top: 15px;
-  max-height: 4vw;
 }
 
 .footer-content {
@@ -178,8 +172,7 @@ header ul {
   margin: 0 auto;
   width: fit-content;
   height: 25vw;
-  margin-top: 30px;
-  border-radius: 10px;
+  padding-top: 30px;
 }
 
 .artikkel-box-lite img {
@@ -187,8 +180,7 @@ header ul {
   margin: 0 auto;
   width: fit-content;
   height: 25vw;
-  margin-top: 30px;
-  border-radius: 10px;
+  padding-top: 30px;
 }
 
 .artikkel-pos {
