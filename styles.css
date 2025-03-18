@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 body {
   background-image: url(Boblebakgrunn.png);
   background-size: 100vw;
@@ -42,6 +43,10 @@ p {
 
 a {
   text-decoration: none;
+}
+
+i {
+  opacity: 70%;
 }
 
 header ul {
