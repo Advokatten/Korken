@@ -125,9 +125,9 @@ header ul {
 }
 
 .footer-nav a {
-  text-decoration: none;
+  text-decoration:underline;
   color: white;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 
