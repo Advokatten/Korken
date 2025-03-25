@@ -143,16 +143,16 @@ header ul {
 .social-icons {
   display: flex;
   gap: 15px;
+  min-height:30px;
 }
 
 .social-icons a {
   color: white;
   font-size: 20px;
-  text-decoration: none;
 }
 
 .social-icons a:hover {
-  font-size: 25px;
+  font-size:25px;
 }
 
 .artikkel-box {
