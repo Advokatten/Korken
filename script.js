@@ -69,25 +69,29 @@ function PostArticle() {
     }
 }
 
-const navLinks = document.querySelectorAll('.topnav a');
-
-// Add click event listeners to each link
-navLinks.forEach(link => {
-  link.addEventListener('click', function() {
-    // Remove active class from all links
-    navLinks.forEach(l => l.classList.remove('active'));
-    
-    // Add active class to the clicked link
-    this.classList.add('active');
-  });
-});
-
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
+// Toggle mobile menu
+function toggleMenu() {
+    const topnav = document.getElementById("myTopnav");
+    topnav.classList.toggle("responsive");
   }
-
+  
+  // Set active tab on click & page load
+  document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll('.topnav a:not(.home-tab)'); // Exclude Home tab
+    const currentLocation = window.location.href;
+  
+    // Set active tab on page load
+    navLinks.forEach(link => {
+      if (link.href === currentLocation) {
+        link.classList.add("active");
+      }
+    });
+  
+    // Set active tab on click
+    navLinks.forEach(link => {
+      link.addEventListener("click", function() {
+        navLinks.forEach(l => l.classList.remove("active"));
+        this.classList.add("active");
+      });
+    });
+  });
