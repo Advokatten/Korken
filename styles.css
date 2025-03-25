@@ -300,7 +300,6 @@ iframe {
   .topnav.responsive a:not(:first-child) {
     display: block;
     float: none;
-    text-align: left;
   }
   
   .topnav a:not(.icon) { display: none; 
