@@ -191,7 +191,8 @@ header ul {
   display: block;
   margin: 0 auto;
   width: fit-content;
-  height: 25vw;
+  max-width: 80%;
+  height: fit-content;
   margin-top: 30px;
   border-radius: 10px;
 }
