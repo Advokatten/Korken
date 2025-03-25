@@ -68,3 +68,26 @@ function PostArticle() {
         article.innerHTML = `<p>${art_text.value}</p>`;
     }
 }
+
+const navLinks = document.querySelectorAll('.topnav a');
+
+// Add click event listeners to each link
+navLinks.forEach(link => {
+  link.addEventListener('click', function() {
+    // Remove active class from all links
+    navLinks.forEach(l => l.classList.remove('active'));
+    
+    // Add active class to the clicked link
+    this.classList.add('active');
+  });
+});
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
