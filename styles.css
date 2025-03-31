@@ -353,3 +353,11 @@ iframe {
   }
 }
 
+.header1 {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 5vw;
+  text-align: center;
+  margin:0;
+}
