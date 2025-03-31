@@ -77,7 +77,6 @@ header ul {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  
   padding-top: 0px;
   padding-bottom: 0px;
   display: flex;
@@ -126,6 +125,7 @@ header ul {
   font-size: 16px;
   margin-left:30px;
   width:100px;
+  border-radius: 10px;
 }
 
 .topnav a:hover {
