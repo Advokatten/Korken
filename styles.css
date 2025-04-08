@@ -39,6 +39,7 @@ h2 {
   font-size: 3.5vw;
   color: #000000;
   text-align: center;
+  margin-top:5px;
   
 }
 
@@ -76,7 +77,6 @@ header ul {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  
   padding-top: 0px;
   padding-bottom: 0px;
   display: flex;
@@ -89,6 +89,10 @@ header ul {
 .kork {
   max-width: 60px;
   padding-left: 10px;
+}
+
+.dikt{
+  text-align: center;
 }
 
 /* .header-nav a {
@@ -121,6 +125,7 @@ header ul {
   font-size: 16px;
   margin-left:30px;
   width:100px;
+  border-radius: 10px;
 }
 
 .topnav a:hover {
@@ -300,7 +305,6 @@ iframe {
   .topnav.responsive a:not(:first-child) {
     display: block;
     float: none;
-    text-align: left;
   }
   
   .topnav a:not(.icon) { display: none; 
@@ -347,4 +351,13 @@ iframe {
     width: 100%;
     height: auto;
   }
+}
+
+.header1 {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 5vw;
+  text-align: center;
+  margin:0;
 }
