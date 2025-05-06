@@ -364,3 +364,10 @@ iframe {
   text-align: center;
   margin:0;
 }
+
+
+
+.testp {
+  display: flex;
+  justify-content: center;
+}
